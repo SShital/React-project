@@ -1,6 +1,11 @@
-.App {
+
+body {
+  font-family: 'Helvetica', sans-serif !important
+}
+.buzzes,.Buzzpage,.scorehead{
   text-align: center;
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +35,333 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*Custom css*/
+.btn-primary{
+	background-color: #f68d2e;
+	border-color: #f68d2e;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('.\assets\homeimg.jpg');
+   background-position: center;
+  background-repeat: no-repeat;
+}
+.dailyhead{
+font-size:32px;
+font-weight: lighter;
+color:#fff !important
+}
+.nudgehead{
+font-weight: bold;
+color: #fff !important 
+}
+.dailyInfo{
+    width: 320px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    padding: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 7px;
+}
+.startbtn{
+    background: #e60000;
+    color: #fff;
+    width: 150px;
+    border-radius: 12px; 
+}
+.startbtn:hover {
+    color: #fff;
+    background-color: #e60000;
+    border-color: #e60000;
+}
+.buzme{
+  background: #b20000;
+  color: #fff;
+  font-size: 20px;
+  height: 140px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 24px 35px;
+  line-height: 90px;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  
+}
+.trirdiv{
+  background: #b20000;
+  color: #fff;
+  font-size: 20px;
+  height: 140px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 24px 35px;
+  line-height: 90px;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  
+
+}
+.learnobj{
+  background: #b20000;
+  color: #fff;
+  font-size: 20px;
+  height: 140px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 24px 35px;
+  line-height: 90px;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.flipcards{
+  background: #b20000;
+  color: #fff;
+  font-size: 20px;
+  height: 140px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 24px 35px;
+  line-height: 90px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ display: flex;
+}
+
+.dashmain{
+    margin-top: 69px;
+}
+
+
+i.fa.fa-bell.buzz-icon-hold {
+    display: flex;
+    font-size: 30px;
+    line-height: 34px;
+    border-left: 1px dotted #fff;
+    padding: 30px 0px 30px 30px;
+}
+
+a.buzz-link-hold {
+    display: flex;
+    margin-right: auto;
+    color: #FFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+ 
+.buzzes{
+    overflow: auto;
+    padding: 0;
+    margin-top: 70px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+   
+.buzzbreadcrum{
+  font-size: 18px;
+  color: #000
+}
+
+
+/*---------- Buzz Me Screen ------------------*/
+	.buzz-screen .radio{
+    padding:5px;
+    text-align: left;
+  }
+  .buzz-screen{
+   display: contents;
+  }
+
+.content-bg{
+	background-color:#fff;
+	border-radius:5px;
+	
+}
+	.buzz-screen label span{
+		display:inline-block;
+		position:absolute;
+		right:20px;
+		font-size:12px;
+		z-index:1;
+		top:5px;
+	}
+	.buzz-screen li{
+		display:inline-block;
+		list-style:none;
+		padding: 0 5px;
+		font-size:11px;
+	}
+	.content-padding{
+		padding:20px 40px;
+	}
+	.buzz-screen hr{
+		margin-bottom:0;
+	}
+.flex-sample{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 20px 20px 20px;
+		background-color: #eff5fb;
+	}
+	
+	.question-number{
+    padding:5px 0 20px 0;
+    display: flex;
+	}
+	.question-number span{
+		color: #f8a458;
+	}
+	.buzz-screen .bg-danger span, .buzz-screen .bg-success span{
+		font-size:12px;
+	}
+
+.nopadding{padding:0 !important;}
+.nextbtn{
+  margin-left: 13px;
+}
+.martop20{
+margin-top:20px;
+}
+.questionText{
+text-align: left;
+
+}
+/*videos*/
+.recommed{
+  background-color: #e9ecef;
+  height: 37px;
+  text-align: center;
+  padding: 7px;
+  
+}
+.recomdhead{
+font-size: 16px;
+font-weight: bold;
+}
+.videosection{
+  background-color: #fff
+}
+.video-react .video-react-big-play-button{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+}
+/* videos page */
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 30px;
+}
+.video-thumbnail:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  content: "\f01d";
+  font-family: FontAwesome;
+  font-size: 32px;
+  color: #fff;
+  opacity: 0.8;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.video-thumbnail:hover:before {
+  color: #eee;
+}
+.videosection{
+   width: 100%;
+}
+.react-thumbnail-generator img{ 
+  max-width: 100%;
+  max-height: 100%;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.vid-left{
+    float: left;
+    padding:5px;
+    width:33%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+color: #fff;
+background-color: #b20000;
+
+}
+
+/*recommanded videos*/
+.circlealign{
+  padding-left: 50px
+}
+.divisionsign
+{
+  content: "\2215";
+}
+.circle-text{
+  margin-left: 24px;
+  font-size: 21px;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+}
+
+
+.card-horizontal{
+display: flex;
+flex: 1 1 auto;
+}
+
+.card-body{
+  padding: 0
+}
+.card {
+  border: none;
+}
+.fa-play-circle{
+    font-size: 52px;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+.card-header{
+  padding: 0;
+  width: 111px;
+  margin-left: -4px;
+}
+.card-title{
+  margin-bottom: 0
+}
+.card-img{
+  height: 100px;
+}
+.answerSpan{
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
 }

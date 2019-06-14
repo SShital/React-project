@@ -1,0 +1,41 @@
+.navbar .navbar-brand {
+  top: 50%;
+  left: 50%;
+}
+.navbar.navbar-dark{
+  background-color: #CC3333;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 0px 15px;
+  top:0
+}
+.navbar-brand>img {
+   height: 32px;
+   width: auto;
+   margin: 0 auto;
+  /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+}
+.navbar-brand{
+    margin-right: auto;
+}
+@media (max-width: 991.98px) {
+  .navbar .navbar-brand {
+    position: static;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* .notification-icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #4680ff;
+  position: absolute;
+  top: 0.4rem;
+  right: 0;
+} */
