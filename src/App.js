@@ -15,7 +15,7 @@ import Videos from './components/videos'
 import Cicrle from './components/cicrle'
 import Flipcards from './components/flipcards'
 import CarouselFlipCards from './components/carousel'
-
+import Login from './components/login'
 
 
 class App extends Component {
@@ -32,6 +32,7 @@ class App extends Component {
         <Route path="/score" component={Score}/>
         <Route path="/videos" component={Videos}/>
         <Route path="/flipcards" component= {CarouselFlipCards}/>
+        <Route path="/login" component= {Login}/>
         <Route component={NoMatch}/>
      <Dashboard/>
    

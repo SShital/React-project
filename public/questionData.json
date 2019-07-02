@@ -1,0 +1,354 @@
+{
+    "questions": [{
+        "QuestionNo":"1",
+        "category" : "Computer",
+        "Question":"HTTP stands for:",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Hyper Text Transfer Protocol",
+            "B. Hyper Timed Text Protocol",
+            "C. Hopper Transfer Text Protocol",
+            "D. Hopper Text Timer Protocol"
+        ],
+        "reinforcement" : "The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems.",
+        "context" : "The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen. HTTP was developed to facilitate hypertext and the World Wide Web."
+    },{
+        "QuestionNo":"2",
+        "category" : "Computer",
+        "Question":"Which of the following are computer peripherals? ",
+        "quesType" : "mrq",
+        "Answer":"1,2,4",
+        "options":[
+            "A. CPU",
+            "B. Mouse",
+            "C. Hammer",
+            "D. Keyboard"
+        ],
+        "reinforcement" : "CPU, Keyboard, Mouse headphones etc are the few of the computer peripherals.",
+        "context" : "A peripheral or peripheral device is an ancillary device used to put information into and get information out of the computer. Input device, output device and storage are the three categories of peripheral devices exist based on their relationship with the computer:"
+    },{
+        "QuestionNo":"3",
+        "category" : "Computer",
+        "Question":"In the context of memory card, what does SD stands for?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Secure Digital",
+            "B. Scan Disk",
+            "C. Short Drive",
+            "D. Slot Disk"
+        ],
+        "reinforcement" : "SD Card is a memory cards used in electronic equipments including digital cameras and cell phones. It stands for Secure Digital",
+        "context" : "Secure Digital, officially abbreviated as SD, is a non-volatile memory card format developed by the SD Card Association (SDA) for use in portable devices."
+    },{
+        "QuestionNo":"4",
+        "category" : "Computer",
+        "Question":"What type of connector is used to plug a telephone line into a modem?",
+        "quesType" : "mcq",
+        "Answer":"3",
+        "options":[
+            "A. COM1",
+            "B. RJ-45",
+            "C. RJ-11",
+            "D. RJ-10"
+        ],
+        "reinforcement" : "RJ-11 establishes a bridged connection for one telephone line.",
+        "context" : "A registered jack (RJ) is a standardized telecommunication network interface for connecting voice and data equipment to a service provided by a local exchange carrier or long distance carrier."
+    },{
+        "QuestionNo":"5",
+        "category" : "Computer",
+        "Question":"Which protocol sends electronic mail?",
+        "quesType" : "mcq",
+        "Answer":"3",
+        "options":[
+            "A. Outlook Express",
+            "B. POP3",
+            "C. FTP",
+            "D. SMTP"
+        ],
+        "reinforcement" : "Simple Mail Transfer Protocol (SMTP) is an Internet standard for email transmission",
+        "context" : "Simple Mail Transfer Protocol (SMTP) is an Internet standard for email transmission.Mail servers and other mail transfer agents use SMTP to send and receive mail messages on TCP port 25."
+    },{
+        "QuestionNo":"6",
+        "category" : "Sports",
+        "Question":"Who is the first Indian woman to win an Asian Games gold in 400m run? ",
+        "quesType" : "mcq",
+        "Answer":"3",
+        "options":[
+            "A. M.L.Valsamma",
+            "B. P.T.Usha",
+            "C. Kamaljit Sandhu",
+            "D. K.Malleshwari"
+        ],
+        "reinforcement" : "Kamaljeet Sandhu is a former woman Indian athlete who won gold medal at 1970 Bangkok Asian Games in 400 m race.",
+        "context" : "Kamaljeet Sandhu is a former woman Indian athlete who won gold medal at 1970 Bangkok Asian Games in 400 m race. She ran the distance in 57.3 seconds. She was the first Indian woman athlete to win gold medal at any Asian games.She hails from Punjab state in India. She received Padma Shri award in 1971."
+    },{
+        "QuestionNo":"7",
+        "category" : "Sports",
+        "Question":"Who among the following are associated with billiards in India?",
+        "quesType" : "mrq",
+        "Answer":"1,3",
+        "options":[
+            "A. Subash Agrawal",
+            "B. Mihir Sen",
+            "C. Manoj Kothari",
+            "D. Ravi Shastri"
+        ],
+        "reinforcement" : "Subash Agrawal and Manoj Kothari are few of the well known billiards player in India.",
+        "context" : "Mihir Sen (16 November 1930 – 11 June 1997) was a famous long distance swimmer & a National Hero, while Ravi Shastri was a famous cricketer, played for India."
+    },{
+        "QuestionNo":"8",
+        "category" : "Sports",
+        "Question":"Who was the 1st ODI captain for India?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Ajit Wadekar",
+            "B. Bishen Singh Bedi",
+            "C. Nawab Pataudi",
+            "D. Vinoo Mankad"
+        ],
+        "reinforcement" : "Ajit Wadekar was the 1st captain of Indian cricket team. Interestingly, he has played only 2 ODI matches for India.",
+        "context" : "Ajit Wadekar was an Indian international cricketer who played for the Indian national team between 1966 and 1974.Described as an 'aggressive batsman', Wadekar made his first-class debut in 1958, before making his foray into international cricket in 1966."
+    },{
+        "QuestionNo":"9",
+        "category" : "Sports",
+        "Question":"In which Indian state did the game of Polo originate?",
+        "quesType" : "mcq",
+        "Answer":"4",
+        "options":[
+            "A. Meghalaya",
+            "B. West Bengal",
+            "C. Rajasthan",
+            "D. Manipur"
+        ],
+        "reinforcement" : "The modern game of polo is derived from Manipur, where the game was known as 'Sagol Kangjei', 'Kanjai-bazee', or 'Pulu'.",
+        "context" : "India is the birthplace of modern polo. The modern game of polo is derived from Manipur, where the game was known as 'Sagol Kangjei', 'Kanjai-bazee', or 'Pulu'.It was the anglicised form of the last, referring to the wooden ball that was used, which was adopted by the sport in its slow spread to the west."
+    },{
+        "QuestionNo":"10",
+        "category" : "Sports",
+        "Question":"What is the name of the person that controls a football match?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. A referee",
+            "B. An umpire",
+            "C. A spectator",
+            "D. A goalkeeper"
+        ],
+        "reinforcement" : "A referee is the person responsible for enforcing the Laws of the Game during the course of a match",
+        "context" : "In association football, the referee is the person responsible for enforcing the Laws of the Game during the course of a match. He or she is the final decision-making authority on all facts connected with play, and is the only official on the pitch with the authority to start and stop play and impose disciplinary action against players during a match. "
+    },{
+        "QuestionNo":"11",
+        "category" : "Inventions",
+        "Question":" Who invented the BALLPOINT PEN?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Biro Brothers",
+            "B. Waterman Brothers",
+            "C. Bicc Brothers",
+            "D. Write Brothers"
+        ],
+        "reinforcement" : "The Hungarian brothers, Laszlo and George Biro, made the first ball point pen in 1894. It followed the first workable fountain pen which was invented by L.E. Waterman in 1884.",
+        "context" : "The Hungarian brothers, Laszlo and George Biro, made the first ball point pen in 1894. It followed the first workable fountain pen which was invented by L.E. Waterman in 1884."
+    },{
+        "QuestionNo":"12",
+        "category" : "Inventions",
+        "Question":"What is the name of the CalTech seismologist who invented the scale used to measure the magnitude of earthquakes? ",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Charles Richter",
+            "B. Hiram Walker",
+            "C. Giuseppe Mercalli",
+            "D. Joshua Rumble"
+        ],
+        "reinforcement" : "Charles Richter invented the scale used to measure the magnitude of earthquakes.",
+        "context" : "Richter is most famous as the creator of the Richter magnitude scale, which, until the development of the moment magnitude scale in 1979, quantified the size of earthquakes. Inspired by Kiyoo Wadati's 1928 paper on shallow and deep earthquakes, Richter first used the scale in 1935 after developing it in collaboration with Beno Gutenberg; both worked at the California Institute of Technology.The quote 'logarithmic plots are a device of the devil' is attributed to Richter"
+    },{
+        "QuestionNo":"13",
+        "category" : "Inventions",
+        "Question":"What Galileo invented?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Barometer",
+            "B. Pendulum clock",
+            "C. Microscope",
+            "D. Thermometer"
+        ],
+        "reinforcement" : "Galileo invented Thermometer",
+        "context" : "Various authors have credited the invention of the thermometer to Cornelius Drebbel, Robert Fludd, Galileo Galilei or Santorio Santorio. The thermometer was not a single invention, however, but a development.Galileo Galilei also discovered that objects (glass spheres filled with aqueous alcohol) of slightly different densities would rise and fall, which is nowadays the principle of the Galileo thermometer (shown). Today such thermometers are calibrated to a temperature scale."
+    },{
+        "QuestionNo":"14",
+        "category" : "Inventions",
+        "Question":"Who invented Jet Engine?",
+        "quesType" : "mrq",
+        "Answer":"1,3",
+        "options":[
+            "A. Sir Frank Whittle",
+            "B. Gottlieb Daimler",
+            "C. Dr Hans von Ohain",
+            "D. Lewis E Waterman"
+        ],
+        "reinforcement" : "Dr Hans von Ohain and Sir Frank Whittle are recognized as the co-inventors of the jet engine. Each was working separately and knew nothing of the others work.",
+        "context" : "Dr Hans von Ohain and Sir Frank Whittle are recognized as the co-inventors of the jet engine. Each was working separately and knew nothing of the others work. Although Whittle started first, von Ohain was first to design and develop a turbojet engine to power an aircraft.Of the many honors received by both, the most significant honor was probably 'The Charles Draper Prize' in 1992 which was given to both Hans von Ohain and Sir Frank Whittle for their efforts and contributions to aviation and mankind. 'The Charles Draper Prize' is recognized as the equivalent to the Nobel Prize in technology."
+    },{
+        "QuestionNo":"15",
+        "category" : "Inventions",
+        "Question":"What Benjamin Franklin invented?",
+        "quesType" : "mcq",
+        "Answer":"3",
+        "options":[
+            "A. Barometer",
+            "B. Radio",
+            "C. Bifocal spectacles",
+            "D. Hygrometer"
+        ],
+        "reinforcement" : "In 1760, Benjamin Franklin invented Bifocal spectacles",
+        "context" : "A list of Benjamin Franklin's inventions reveals a man of many talents and interests. It was the scientist in Ben that brought out the inventor. His natural curiosity about things and the way they work made him try to find ways to make them work better.Ben had poor vision and needed glasses to read. He got tired of constantly taking them off and putting them back on, so he decided to figure out a way to make his glasses let him see both near and far. He had two pairs of spectacles cut in half and put half of each lens in a single frame. Today, we call them bifocals."
+    },{
+        "QuestionNo":"16",
+        "category" : "Geography",
+        "Question":"The higher the wind speed and the longer the fetch or distance of open water across which the wind blows and waves travel, the ____ waves and the ____ energy they process.",
+        "quesType" : "mrq",
+        "Answer":"1,4",
+        "options":[
+            "A. larger",
+            "B. smaller",
+            "C. less",
+            "D. more"
+        ],
+        "reinforcement" : "Larger waves when travel long distances in open waters collect the moisture and become more energetic and hence develop large waves with more energy.",
+        "context" : "By considering oceanic wave energy in energy crisis, it depends on the height and the speed of waves ! When it comes to producing electricity, it should be a powerful thing.With the high speed wind more waves and with the longer distance of open water larger waves are possible."
+    },{
+        "QuestionNo":"17",
+        "category" : "Geography",
+        "Question":"The great Victoria Desert is located in?",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. Canada",
+            "B. West Africa",
+            "C. Australia",
+            "D. North America"
+        ],
+        "reinforcement" : "The Great Victoria is the largest desert in Australia.",
+        "context" : "The Great Victoria is the largest desert in Australia and consists of many small sandhills, grassland plains, areas with a closely packed surface of pebbles (called desert pavement or gibber plains) and salt lakes. It is over 700 kilometres (430 mi) wide (from west to east) and covers an area of 424,400 square kilometres (163,900 sq mi) from the Eastern Goldfields region of Western Australia to the Gawler Ranges in South Australia."
+    },{
+        "QuestionNo":"18",
+        "category" : "Geography",
+        "Question":"The light of distant stars is affected by",
+        "quesType" : "mrq",
+        "Answer":"1,2",
+        "options":[
+            "A. the earth's atmosphere",
+            "B. interstellar dust",
+            "C. moon",
+            "D. None of the above"
+        ],
+        "reinforcement" : "Interstellar dust can absorb light from distant stars while the earth's atmosphere can refract light as it passes through.",
+        "context" : "Interstellar dust can absorb light from distant stars while the earth's atmosphere can refract light as it passes through.Because as they are far away from us so light get attenuated or absorbed in between the path."
+    },{
+        "QuestionNo":"19",
+        "category" : "Geography",
+        "Question":"The groundwater can become confined between two impermeable layers. This type of enclosed water is called",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. artesian",
+            "B. artesian well",
+            "C. unconfined groundwater",
+            "D. confined groundwater"
+        ],
+        "reinforcement" : "Artesian is of water rising to the surface under its own hydrostatic pressure",
+        "context" : "An artesian aquifer is a confined aquifer containing groundwater under positive pressure. This causes the water level in a well to rise to a point where hydrostatic equilibrium has been reached. A well drilled into such an aquifer is called an artesian well."
+    },{
+        "QuestionNo":"20",
+        "category" : "Geography",
+        "Question":"The Harmattan is",
+        "quesType" : "mrq",
+        "Answer":"1,2,3",
+        "options":[
+            "A. cool, extremely dry wind that forms over the Sahara and blows westward or south-westward to the African coast",
+            "B. wind that blows during the dry season from December to February",
+            "C. tertiary wind that carry great quantities of fine dust from the Sahara",
+            "D. None of the above"
+        ],
+        "reinforcement" : "The Harmattan blows from the east to the west and it is cold and it carry sand particles.",
+        "context" : "The Harmattan is a dry and dusty West African trade wind. It blows south from the Sahara into the Gulf of Guinea between the end of November and the middle of March (winter). The temperatures can be as low as 3 degrees Celsius."
+    },{
+        "QuestionNo":"21",
+        "category" : "Physics",
+        "Question":" Radiocarbon is produced in the atmosphere as a result of",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. collision between fast neutrons and nitrogen nuclei present in the atmosphere",
+            "B. action of ultraviolet light from the sun on atmospheric oxygen",
+            "C. action of solar radiations particularly cosmic rays on carbon dioxide present in the atmosphere",
+            "D. lightning discharge in atmosphere"
+        ],
+        "reinforcement" : "Fast moving neutrons are obtained from cosmic radiation emitted by the sun and these radiation strikes nitroge present in the atmosphere which results into the formaton of radiocarbon",
+        "context" : "Fast moving neutron have a sufficient energy to penetrate the nitrogen nucleus and absorbedby it. Hence it make a intermdiate unstable element finallyit gives carbon-14 and a electron."
+    },{
+        "QuestionNo":"22",
+        "category" : "Physics",
+        "Question":"Nuclear sizes are expressed in a unit named",
+        "quesType" : "mcq",
+        "Answer":"2",
+        "options":[
+            "A. angstrom",
+            "B. Fermi",
+            "C. newton",
+            "D. tesla"
+        ],
+        "reinforcement" : "A unit of length equal to 10-15 meter (one femtometer), used in nuclear physics. It is similar to the diameter of a proton.",
+        "context" : "A unit of length equal to 10-15 meter (one femtometer), used in nuclear physics. It is similar to the diameter of a proton."
+    },{
+        "QuestionNo":"23",
+        "category" : "Physics",
+        "Question":"Light year is a unit of",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. time",
+            "B. distance",
+            "C. light",
+            "D. intensity of light"
+        ],
+        "reinforcement" : "Light year is used to measure the distance between the heavenly bodies in space.",
+        "context" : "A light year is unit of distance to measure long distances like distances b/w stars. Because it becomes so difficult to measure distances in kilometers. 1 light year = 9.46*10^12 Km. It is a distance traveled by a light in one year. The nearest star to earth next to sun is Alpha Centauri which is about 4.3 light years away. The brightest star of our sky is Siris and is 8.6 light years away from us."
+    },{
+        "QuestionNo":"24",
+        "category" : "Physics",
+        "Question":"Light from the Sun reaches us in nearly",
+        "quesType" : "mcq",
+        "Answer":"3",
+        "options":[
+            "A. 2 minutes",
+            "B. 4 minutes",
+            "C. 8 minutes",
+            "D. 16 minutes"
+        ],
+        "reinforcement" : "The time taken by sunlight to reach earth is 8 min 20 sec.",
+        "context" : "The sunling is very powerful and very long from our eyesight, that's why much time to reach the light from here.Delay is due to difference in densities of layers. i.e., when sun rises at horizon its rays gets somewhat deflected due to which they have to cover more area to reach our eyes."
+    },{
+        "QuestionNo":"25",
+        "category" : "Physics",
+        "Question":"Metals are good conductors of electricity because",
+        "quesType" : "mcq",
+        "Answer":"1",
+        "options":[
+            "A. they contain free electrons",
+            "B. the atoms are lightly packed",
+            "C. they have high melting point",
+            "D. All of the above"
+        ],
+        "reinforcement" : "Because the free electrons transform from one place to another rapidly which results in the production of electric current",
+        "context" : "Conductors have free electrons in valence band. There is no forbidden energy gap between valence band and conduction band. Thus the electrons can readily jump from valence band to conduction band. Thus motion of electrons implies flow of current and hence metals are good conductors."
+    }
+]
+}

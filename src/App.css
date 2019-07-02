@@ -90,10 +90,12 @@ color: #fff !important
   text-align: center;
   margin-top: 20px;
   display: flex;
+  border-radius: 5px;
+
   
 }
 .trirdiv{
-  background: #b20000;
+  background: #8f1114;;
   color: #fff;
   font-size: 20px;
   height: 140px; 
@@ -105,9 +107,10 @@ color: #fff !important
   text-align: center;
   margin-top: 20px;
   display: flex;
-  
+  border-radius: 5px;
 
 }
+
 .learnobj{
   background: #b20000;
   color: #fff;
@@ -116,16 +119,17 @@ color: #fff !important
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 24px 35px;
-  line-height: 90px;
+  padding: 25px 26px;
+  line-height: 100px;
   text-align: center;
   margin-top: 20px;
   display: flex;
+  border-radius: 5px;
 
 }
 
 .flipcards{
-  background: #b20000;
+  background: #8f1114;;
   color: #fff;
   font-size: 20px;
   height: 140px; 
@@ -138,6 +142,8 @@ color: #fff !important
   margin-top: 20px;
   margin-bottom: 20px;
  display: flex;
+   border-radius: 5px;
+
 }
 
 .dashmain{
@@ -153,6 +159,22 @@ i.fa.fa-bell.buzz-icon-hold {
     padding: 30px 0px 30px 30px;
 }
 
+.dashboardicons {
+    display: flex;
+    line-height: 34px;
+    border-left: 1px dotted #fff;
+    padding:20px 0px 18px 16px;
+}
+.dashboardicons1{
+    display: flex;
+    line-height: 34px;
+    border-left: 1px dotted #fff;
+    padding:26px 0px 14px 27px;
+}
+.learnObj{
+  margin-left: -10px;
+  font-size: 18px;
+}
 a.buzz-link-hold {
     display: flex;
     margin-right: auto;
@@ -165,11 +187,13 @@ a.buzz-link-hold {
     overflow: auto;
     padding: 0;
     margin-top: 70px;
-    background-color: #e9ecef;
+    background-color: #c8c1c1;
+
     border-radius: .25rem;
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     width: 100%;
+     /* background-color: #e9ecef; */
 }
    
 .buzzbreadcrum{
@@ -293,6 +317,9 @@ font-weight: bold;
 .videosection{
    width: 100%;
 }
+.videomenu{
+  text-align: center;
+}
 .react-thumbnail-generator img{ 
   max-width: 100%;
   max-height: 100%;
@@ -328,7 +355,53 @@ background-color: #b20000;
   left: 42%;
 }
 
+.card-horizontal{
+display: flex;
+flex: 1 1 auto;
+}
 
+.card-body{
+  padding: 0
+}
+.card {
+  border: none;
+}
+.fa-play-circle{
+    font-size: 52px;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 31%;
+    left: 32%;
+}
+.card-header{
+  padding: 0;
+  width: 365px;
+  margin-left: -4px;
+}
+.card-title{
+  margin-bottom: 0
+}
+.card-img{
+  height: 141px;
+}
+.answerSpan{
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.slick-slider{
+  text-align: -webkit-center;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 .card-horizontal{
 display: flex;
 flex: 1 1 auto;
@@ -364,4 +437,5 @@ flex: 1 1 auto;
   font-weight: bold;
   color: #000;
   text-align: center;
+}
 }

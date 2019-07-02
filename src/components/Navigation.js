@@ -8,7 +8,7 @@ class Navigation extends React.Component {
   render() {
 return (
 <Navbar collapseOnSelect expand="lg" variant="dark">
-  <Navbar.Brand href="/">
+  <Navbar.Brand href="/dashboard">
    <i className="fa fa-home" aria-hidden="true"></i>
 </Navbar.Brand>
  

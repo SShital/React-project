@@ -58,12 +58,12 @@ class Videos extends Component {
  <Container>
   <Row>
     <Col xs={6} md={6}>
-     <Nav.Item className="martop20">
+     <Nav.Item className="martop20 videomenu">
           <Nav.Link eventKey="first">Description</Nav.Link>
         </Nav.Item>
         </Col>
         <Col xs={6} md={6}>
-        <Nav.Item className="martop20">
+        <Nav.Item className="martop20 videomenu">
           <Nav.Link eventKey="second">Transcript</Nav.Link>
         </Nav.Item>
       </Col>

@@ -22,11 +22,7 @@ class Flipcards extends React.Component {
   render() {
     return (
     <div className="flipcard11">
-  
-   <Container>
-       <Row>
-    <Col xs={12}>
-    <div className="flipsection">
+   <div className="flipsection">
       <ReactCardFlip isFlipped={this.state.isFlipped}>
         <div key="front" onClick={this.handleClick} >
         <Card style={{ width: '18rem' }}>
@@ -58,9 +54,7 @@ class Flipcards extends React.Component {
        
       </div>
 
-    </Col>
-      </Row>
-      </Container>
+ 
       </div>
       
     )

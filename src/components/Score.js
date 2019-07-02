@@ -51,7 +51,7 @@ class Score extends Component {
    
      
     <Card className="flex-row flex-wrap martop20">
-       <Col xs={4} md={6}>
+    <Col xs={4} md={6}>
      <div className="card-header border-0">
       <Card.Img src="/images/california-contractor-insurance.jpg" />
         <i className="fa fa-play-circle" onClick={this.changeRoute}></i>
@@ -68,6 +68,25 @@ class Score extends Component {
   </Card.Body>
   </Col>
 </Card>
+ <Card className="flex-row flex-wrap martop20">
+    <Col xs={4} md={6}>
+     <div className="card-header border-0">
+      <Card.Img src="/images/california-contractor-insurance.jpg" />
+        <i className="fa fa-play-circle" onClick={this.changeRoute}></i>
+        </div>
+        </Col>
+     <Col xs={8} md={6}>
+     <Card.Body>
+    <Card.Title>Video Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      
+    </Card.Text>
+    
+  </Card.Body>
+  </Col>
+</Card>
+
   </Container>
       </div>
     );
