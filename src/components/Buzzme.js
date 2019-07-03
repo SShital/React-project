@@ -13,19 +13,22 @@ class Buzzme extends Component {
   constructor(props) {
     super(props);
     this.state = {
-            qustionData: [],
-             ques_map: '',
+              qustionData: [],
+              Index:0,
+              selectedOption:'',
+              Answers: [],
             
   };
-   
+  //  this.nextQuestionHandler = this.nextQuestionHandler.bind(this);
   }
 
   componentDidMount() {
        axios.get('/questionData.json') // JSON File Path
       .then(response => {
-        // console.log(response.data.questions);
       const qustionData = response.data.questions
-      this.setState({qustionData:response.data.questions});
+      this.setState({
+        qustionData:qustionData,
+     });
       console.log("questiondata",qustionData)  
     })
       .catch(function (error) {
@@ -35,7 +38,16 @@ class Buzzme extends Component {
 
   nextQuestionHandler =() =>{
 
-     let questionListBlock = '';
+      if(this.state.Index == this.state.qustionData.length - 1){
+         return;
+      }
+           
+      this.setState({
+           Index: (this.state.Index + 1) % this.state.qustionData.length
+        })
+
+        // console.log("selectedIndex.............",this.state.Index)
+    //  let questionListBlock = '';
     // 
     // const ques_map = this.state.qustionData.map((ques,index) => {
     //   //console.log("quessddatataaaaa",ques)
@@ -51,15 +63,69 @@ class Buzzme extends Component {
     // console.log("ques_map*************",ques_map)
   }
 
- render() {
- let qustionData = this.state.qustionData;
- console.log("qustionData*************",qustionData);
+// previousDataHandler =()=>{
+//   if(this.state.selectedIndex == 0)
+//          return;
 
-  qustionData = qustionData.map((ques, index) => {
-            return (
-                <QuestionSet key={ques.QuestionNo} id={ques.QuestionNo} question={ques.Question} options={ques.options}/>
-            );
-        });
+//         this.setState(prevState => ({
+//             selectedIndex: prevState.selectedIndex - 1
+//         }))
+
+// }
+
+
+onChange = function(event,index) {
+     alert(
+       'hiiiiiiiiiiiiiii'
+     )
+  if (typeof(selectedOption) == "undefined"){
+      return false
+    }
+  console.log("event.target.value",event.target.value)
+  this.setState({selectedOption : event.target.value})
+   console.log("checkedradiosdSADASDASDSDDsd--------------",this.state.selectedOption)
+}
+
+render() {
+ 
+  // let qustionData = this.state.qustionData;
+//  console.log("qustionData*************",qustionData);
+  //console.log("this.state.Index",qustionData[1])
+ const item = this.state.qustionData[this.state.Index];
+   
+ if (typeof(item) == "undefined"){
+      return false
+    }
+
+
+    // for(let i = 0; i<=item.options.length; i++){
+    //                  <Form.Check
+    //                         type="radio"
+    //                         label={item.options}
+    //                         name="formHorizontalRadios"
+    //                        value={item.options}
+    //                       />
+
+    // }
+    const questionNumber = item.QuestionNo;
+
+    console.log("questionNumber-------------",questionNumber);
+
+     let optiondata= item.options.map((option,i,selected)=>{
+                    return  <Form.Check
+                            key={i}
+                            type="radio"
+                            label={option}
+                            id= {"radio" + i}
+                            name="formHorizontalRadios"
+                            value={i}
+                           
+                            onChange={() => this.onChange(this,i)}/>
+                         
+ })
+
+    console.log("myyyyyyyyyyoptiondata*****************",optiondata[0]);
+      // console.log("item***********",item.options);
    return (
       <div className="Buzzpage">
         <Navigation />
@@ -71,56 +137,21 @@ class Buzzme extends Component {
             <Col>
               <div className="content-bg">
                 <div className="content-padding">
-              {qustionData}
-             
-          {/* <Form>
+           
+              <QuestionSet id={item.QuestionNo} question={item.Question}/> 
+                <Form>
                     <fieldset>
                       <Form.Group as={Row}>
                         <Col md={10} xs={12} className="radio">
-                          <Form.Check
-                            type="radio"
-                            label="Option 1"
-                            name="formHorizontalRadios"
-                            id="formHorizontalRadios1"
-                            value="option1"
-                          />
+                          {optiondata}
                         </Col>
-                        <Col md={10} xs={12} className="radio bg-success">
-                          <Form.Check
-                            type="radio"
-                            label="Option 2"
-                            name="formHorizontalRadios"
-                            id="formHorizontalRadios2"
-                            value="option2"
-
-                          />
-                        </Col>
-                        <Col md={10} xs={12} className="radio">
-                          <Form.Check
-                            type="radio"
-                            label="Option 3"
-                            name="formHorizontalRadios"
-                            id="formHorizontalRadios3"
-                            value="option3"
-                          />
-                        </Col>
-                        <Col md={10} xs={12} className="radio">
-                          <Form.Check
-                            type="radio"
-                            label="Option 4"
-                            name="formHorizontalRadios"
-                            id="formHorizontalRadios4"
-                            value="option4"
-                          />
-                        </Col>
-
-                      </Form.Group>
+                     </Form.Group>
                     </fieldset>
 
-                  </Form> */}
+                  </Form> 
                   <div className="clearfix"></div>
                   <Col md={6} className="text-left nopadding">
-                    <Button variant="primary"><i className="fa fa-angle-left"></i> Previous</Button>
+                    {/* <Button variant="primary"><i className="fa fa-angle-left" onClick={this.previousDataHandler}></i> Previous</Button> */}
                     <Button variant="primary" className="nextbtn" onClick={this.nextQuestionHandler}>Next <i className="fa fa-angle-right"></i></Button>
                   </Col>
 
