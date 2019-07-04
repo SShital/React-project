@@ -13,120 +13,91 @@ class Buzzme extends Component {
   constructor(props) {
     super(props);
     this.state = {
-              qustionData: [],
-              Index:0,
-              selectedOption:'',
-              Answers: [],
-            
-  };
-  //  this.nextQuestionHandler = this.nextQuestionHandler.bind(this);
+      qustionData: [],
+      Index: 0,
+      selectedOption: [],
+
+
+    };
   }
 
   componentDidMount() {
-       axios.get('/questionData.json') // JSON File Path
+    axios.get('/questionData.json') // JSON File Path
       .then(response => {
-      const qustionData = response.data.questions
-      this.setState({
-        qustionData:qustionData,
-     });
-      console.log("questiondata",qustionData)  
-    })
+        const qustionData = response.data.questions
+        this.setState({
+          qustionData: qustionData,
+        });
+        console.log("questiondata", qustionData)
+      })
       .catch(function (error) {
         console.log(error);
       });
   }
 
-  nextQuestionHandler =() =>{
+  nextQuestionHandler = () => {
 
-      if(this.state.Index == this.state.qustionData.length - 1){
-         return;
-      }
-           
-      this.setState({
-           Index: (this.state.Index + 1) % this.state.qustionData.length
-        })
+    if (this.state.Index == this.state.qustionData.length - 1) {
+      return;
+    }
 
-        // console.log("selectedIndex.............",this.state.Index)
-    //  let questionListBlock = '';
-    // 
-    // const ques_map = this.state.qustionData.map((ques,index) => {
-    //   //console.log("quessddatataaaaa",ques)
-    //   console.log("quessddatataaaaa",ques.QuestionNo)
-    //   console.log("quessddatataaaaa",ques.Question)
-    //  return(
-    //     <QuestionSet key={ques.QuestionNo} id={ques.QuestionNo} question={ques.Question} />
-    //   );
-    //  });
-     
-    //   this.setState({ques_map:ques_map});
-    //  console.log("QuestionSet------------------------",QuestionSet)
-    // console.log("ques_map*************",ques_map)
+    this.setState({
+      Index: (this.state.Index + 1) % this.state.qustionData.length
+    })
+    document.getElementById("create-course-form").reset();
   }
 
-// previousDataHandler =()=>{
-//   if(this.state.selectedIndex == 0)
-//          return;
+  // previousDataHandler =()=>{
+  //   if(this.state.selectedIndex == 0)
+  //          return;
 
-//         this.setState(prevState => ({
-//             selectedIndex: prevState.selectedIndex - 1
-//         }))
+  //         this.setState(prevState => ({
+  //             selectedIndex: prevState.selectedIndex - 1
+  //         }))
 
-// }
+  // }
 
 
-onChange = function(event,index) {
-     alert(
-       'hiiiiiiiiiiiiiii'
-     )
-  if (typeof(selectedOption) == "undefined"){
+  onChange = function (index, ques) {
+    //console.log("event.target.value",event.target.value)
+    //if(this.state.qustionData[ques].Answer)
+    console.log("state.qustionData[ques]", this.state.qustionData[ques])
+    console.log("==Question==", ques);
+    console.log("==Answer==", this.state.qustionData[ques].Answer);
+    console.log("==Value==", index);
+    if (this.state.qustionData[ques].Answer == index) {
+      alert('Good Job!');
+    } else {
+      alert("You missed it");
+    };
+  }
+
+  render() {
+    const item = this.state.qustionData[this.state.Index];
+
+    if (typeof (item) == "undefined") {
       return false
     }
-  console.log("event.target.value",event.target.value)
-  this.setState({selectedOption : event.target.value})
-   console.log("checkedradiosdSADASDASDSDDsd--------------",this.state.selectedOption)
-}
 
-render() {
- 
-  // let qustionData = this.state.qustionData;
-//  console.log("qustionData*************",qustionData);
-  //console.log("this.state.Index",qustionData[1])
- const item = this.state.qustionData[this.state.Index];
-   
- if (typeof(item) == "undefined"){
-      return false
-    }
+    const questionNumber = this.state.Index;
 
+    console.log("questionNumber-------------", questionNumber);
 
-    // for(let i = 0; i<=item.options.length; i++){
-    //                  <Form.Check
-    //                         type="radio"
-    //                         label={item.options}
-    //                         name="formHorizontalRadios"
-    //                        value={item.options}
-    //                       />
+    let optiondata = item.options.map((option, i, selected) => {
+      return <Form.Check
+        key={i}
+        type="radio"
+        label={option}
+        id={"radio" + i}
+        name="formHorizontalRadios"
+        value={i}
+        onChange={() => this.onChange(i + 1, questionNumber)} />
 
-    // }
-    const questionNumber = item.QuestionNo;
+    })
 
-    console.log("questionNumber-------------",questionNumber);
-
-     let optiondata= item.options.map((option,i,selected)=>{
-                    return  <Form.Check
-                            key={i}
-                            type="radio"
-                            label={option}
-                            id= {"radio" + i}
-                            name="formHorizontalRadios"
-                            value={i}
-                           
-                            onChange={() => this.onChange(this,i)}/>
-                         
- })
-
-    console.log("myyyyyyyyyyoptiondata*****************",optiondata[0]);
-      // console.log("item***********",item.options);
-   return (
+    console.log("myyyyyyyyyyoptiondata*****************", optiondata[0]);
+    // console.log("item***********",item.options);
+    return (
       <div className="Buzzpage">
         <Navigation />
         <div className="buzzes">
@@ -137,18 +108,18 @@ render() {
             <Col>
               <div className="content-bg">
                 <div className="content-padding">
-           
-              <QuestionSet id={item.QuestionNo} question={item.Question}/> 
-                <Form>
+
+                  <QuestionSet id={item.QuestionNo} question={item.Question} />
+                  <Form id="create-course-form">
                     <fieldset>
                       <Form.Group as={Row}>
                         <Col md={10} xs={12} className="radio">
                           {optiondata}
                         </Col>
-                     </Form.Group>
+                      </Form.Group>
                     </fieldset>
 
-                  </Form> 
+                  </Form>
                   <div className="clearfix"></div>
                   <Col md={6} className="text-left nopadding">
                     {/* <Button variant="primary"><i className="fa fa-angle-left" onClick={this.previousDataHandler}></i> Previous</Button> */}

@@ -24,14 +24,14 @@ render() {
     
     <Col lg={6} sm={4}>
      <div className="trirdiv">
-           <Link to="/buzzme" className="buzz-link-hold"><span>TRIR</span></Link> <Image src="/images/icon_01.png" className="dashboardicons"/>
+           <Link to="/" className="buzz-link-hold"><span>TRIR</span></Link> <Image src="/images/icon_01.png" className="dashboardicons"/>
     </div>
     </Col>
   </Row>
   <Row>
     <Col lg={6} sm={8}>
     <div className="learnobj">
-    <Link to="/buzzme" className="buzz-link-hold"><span className="learnObj">LEARNING OBJECTIVES</span></Link> 
+    <Link to="/" className="buzz-link-hold"><span className="learnObj">LEARNING OBJECTIVES</span></Link> 
     <span><Image src="/images/icon_02.png" className="dashboardicons1"/></span>
     </div>
     </Col>

@@ -144,7 +144,7 @@
     },{
         "QuestionNo":"11",
         "category" : "Inventions",
-        "Question":" Who invented the BALLPOINT PEN?",
+        "Question":"Who invented the BALLPOINT PEN?",
         "quesType" : "mcq",
         "Answer":"1",
         "options":[
@@ -174,7 +174,7 @@
         "category" : "Inventions",
         "Question":"What Galileo invented?",
         "quesType" : "mcq",
-        "Answer":"1",
+        "Answer":"4",
         "options":[
             "A. Barometer",
             "B. Pendulum clock",
@@ -230,7 +230,7 @@
         "category" : "Geography",
         "Question":"The great Victoria Desert is located in?",
         "quesType" : "mcq",
-        "Answer":"1",
+        "Answer":"3",
         "options":[
             "A. Canada",
             "B. West Africa",
@@ -314,7 +314,7 @@
         "category" : "Physics",
         "Question":"Light year is a unit of",
         "quesType" : "mcq",
-        "Answer":"1",
+        "Answer":"2",
         "options":[
             "A. time",
             "B. distance",
