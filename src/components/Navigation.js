@@ -13,7 +13,7 @@ return (
 </Navbar.Brand>
  
   <Navbar>
- <Nav className="mr-3 text-gray-400 px-1">
+ <Nav className="mr-1 px-1">
      <Nav.Link href="http://example.com">
     <i className="fa fa-bell"></i>
     </Nav.Link>

@@ -15,7 +15,7 @@ render() {
   <Navigation/>
   <Container>
 <div className="dashmain">
-  <Row>
+  <Row className="dashrow"> 
     <Col lg={6} sm={8}>
     <div className="buzme">
     <Link to="/buzzme" className="buzz-link-hold"><span>BUZZ ME</span></Link> <Image src="/images/icon_04.png" className="dashboardicons"/>

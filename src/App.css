@@ -77,15 +77,28 @@ color: #fff !important
     background-color: #e60000;
     border-color: #e60000;
 }
+  .fa.fa-bell {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+  }
+   .fa.fa-home {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+  }
+.dashrow{
+  margin-top: 116px;
+}
 .buzme{
-  background: #b20000;
+  background:#b93639;
   color: #fff;
   font-size: 20px;
-  height: 140px; 
+  height: 100px; 
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 24px 35px;
+  padding: 6px 35px;
   line-height: 90px;
   text-align: center;
   margin-top: 20px;
@@ -95,14 +108,14 @@ color: #fff !important
   
 }
 .trirdiv{
-  background: #8f1114;;
+  background: #b22226;;
   color: #fff;
   font-size: 20px;
-  height: 140px; 
+  height: 100px; 
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 24px 35px;
+  padding: 6px 35px;
   line-height: 90px;
   text-align: center;
   margin-top: 20px;
@@ -112,15 +125,16 @@ color: #fff !important
 }
 
 .learnobj{
-  background: #b20000;
+  background:	
+rgb(178,34,38);
   color: #fff;
   font-size: 20px;
-  height: 140px; 
+  height: 100px; 
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 25px 26px;
-  line-height: 100px;
+  padding: 6px 26px;
+  line-height: 93px;
   text-align: center;
   margin-top: 20px;
   display: flex;
@@ -132,16 +146,16 @@ color: #fff !important
   background: #8f1114;;
   color: #fff;
   font-size: 20px;
-  height: 140px; 
+  height: 100px; 
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding: 24px 35px;
+  padding: 6px 35px;
   line-height: 90px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
- display: flex;
+    display: flex;
    border-radius: 5px;
 
 }
@@ -169,7 +183,7 @@ i.fa.fa-bell.buzz-icon-hold {
     display: flex;
     line-height: 34px;
     border-left: 1px dotted #fff;
-    padding:26px 0px 14px 27px;
+    padding:23px 1px 10px 24px;
 }
 .learnObj{
   margin-left: -10px;
@@ -207,14 +221,19 @@ a.buzz-link-hold {
     padding:5px;
     text-align: left;
   }
-  .buzz-screen{
+  /* .buzz-screen{
    display: contents;
-  }
+  } */
 
 .content-bg{
 	background-color:#fff;
 	border-radius:5px;
 	
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 	.buzz-screen label span{
 		display:inline-block;
@@ -243,18 +262,79 @@ a.buzz-link-hold {
 		padding: 30px 20px 20px 20px;
 		background-color: #eff5fb;
 	}
-	
+.questionText{
+  color: #000;
+  font-size: 16px;
+  }
 	.question-number{
-    padding:5px 0 20px 0;
-    display: flex;
+    padding:4px 0 15px 0;
+    /* display: flex; */
+    font-size: 16px;
+    color: #000
 	}
 	.question-number span{
 		color: #f8a458;
-	}
+  }
+  .radiocheck{
+    margin: 6px 0;
+    padding: 1px;
+
+  }
+
+.checkbutton div {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    background: url('.\assets\buzzer.png');
+    cursor: pointer;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 12px;
+    line-height: 80px;
+}
+  /* .nextbtn{
+    display: none
+  } */
+
+  .correctfeedback,.incorrectedfeedback{
+    display: block;
+  }
+.nextbutton div {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    background: url('.\assets\buzzer.png');
+    cursor: pointer;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 12px;
+    line-height: 80px;
+    display: none
+}
 	.buzz-screen .bg-danger span, .buzz-screen .bg-success span{
 		font-size:12px;
 	}
+#create-course-form .form-check-input{
+  margin-left: 1.25rem;
+  display: block;
+   position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #bec5ce;
+}
 
+#create-course-form .form-check-label{
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    /* margin-bottom: 12px; */
+    cursor: pointer
+}
 .nopadding{padding:0 !important;}
 .nextbtn{
   margin-left: 13px;
@@ -262,10 +342,11 @@ a.buzz-link-hold {
 .martop20{
 margin-top:20px;
 }
-.questionText{
+/* .questionText{
 text-align: left;
 
-}
+} */
+
 /*videos*/
 .recommed{
   background-color: #e9ecef;
